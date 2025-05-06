@@ -1,11 +1,5 @@
 import React, { useState } from 'react';
-import { createClient } from '@supabase/supabase-js';
 import Button from './Button';
-
-const supabase = createClient(
-  import.meta.env.VITE_SUPABASE_URL,
-  import.meta.env.VITE_SUPABASE_ANON_KEY
-);
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -19,7 +13,6 @@ const ContactForm: React.FC = () => {
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-  const [submitError, setSubmitError] = useState('');
 
   const validateForm = () => {
     const newErrors: Record<string, string> = {};
@@ -56,20 +49,15 @@ const ContactForm: React.FC = () => {
     }
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitError('');
     
     if (validateForm()) {
       setIsSubmitting(true);
       
-      try {
-        const { error } = await supabase
-          .from('contact_submissions')
-          .insert([formData]);
-
-        if (error) throw error;
-
+      // Simulate form submission
+      setTimeout(() => {
+        setIsSubmitting(false);
         setIsSuccess(true);
         setFormData({
           name: '',
@@ -83,12 +71,7 @@ const ContactForm: React.FC = () => {
         setTimeout(() => {
           setIsSuccess(false);
         }, 5000);
-      } catch (error) {
-        console.error('Error submitting form:', error);
-        setSubmitError('There was an error submitting your message. Please try again.');
-      } finally {
-        setIsSubmitting(false);
-      }
+      }, 1500);
     }
   };
 
@@ -97,12 +80,6 @@ const ContactForm: React.FC = () => {
       {isSuccess && (
         <div className="mb-6 p-4 bg-green-100 text-green-800 rounded-md">
           Thank you for your message! We'll be in touch with you shortly.
-        </div>
-      )}
-
-      {submitError && (
-        <div className="mb-6 p-4 bg-red-100 text-red-800 rounded-md">
-          {submitError}
         </div>
       )}
 
