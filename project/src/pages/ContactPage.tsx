@@ -60,7 +60,7 @@ const ContactPage: React.FC = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-slate-800 mb-1">Email</h3>
-                      <p className="text-slate-600">info@firstpriorityfp.com</p>
+                      <p className="text-slate-600">info@firstpriorityfs.com</p>
                       <p className="text-slate-500 text-sm mt-1">We respond within 24 hours</p>
                     </div>
                   </div>
@@ -72,7 +72,7 @@ const ContactPage: React.FC = () => {
                     <div>
                       <h3 className="text-lg font-semibold text-slate-800 mb-1">Address</h3>
                       <p className="text-slate-600">123 Safety Ave.</p>
-                      <p className="text-slate-600">Firetown, ST 12345</p>
+                      <p className="text-slate-600">Vero Beach, FL 32963</p>
                     </div>
                   </div>
                   
@@ -114,14 +114,14 @@ const ContactPage: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
             title="Visit Our Office"
-            subtitle="We're conveniently located to serve the greater metropolitan area."
+            subtitle="We're conveniently located to serve the Treasure Coast."
             centered
           />
           
           <div className="bg-white rounded-lg shadow-md p-4 mt-8">
             <div className="aspect-w-16 aspect-h-9 h-96">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1620919724498!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d341551.8762270923!2d-80.19616344475028!3d27.68125927558832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1748629335763!5m2!1sen!2sus"
                 className="w-full h-full rounded-md"
                 style={{ border: 0 }}
                 allowFullScreen={true}
@@ -147,7 +147,7 @@ const ContactPage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-slate-800 mb-3">How quickly can you respond to a service call?</h3>
               <p className="text-slate-600">
-                We prioritize response times and typically respond to service calls within 24-48 hours. For emergency situations, we offer same-day service and 24/7 support.
+                We prioritize response times and typically respond to service calls within 24 hours. For emergency situations, we offer same-day service and 24/7 support.
               </p>
             </div>
             
