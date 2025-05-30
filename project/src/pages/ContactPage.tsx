@@ -175,7 +175,7 @@ const ContactPage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-slate-800 mb-3">What areas do you service?</h3>
               <p className="text-slate-600">
-                We currently service the greater metropolitan area and surrounding communities within a 100-mile radius. For clients with multiple locations across regions, we can provide specialized service arrangements.
+                We currently service the Treasure Coast and surrounding communities within a 100-mile radius. For clients with multiple locations across regions, we can provide specialized service arrangements.
               </p>
             </div>
           </div>
