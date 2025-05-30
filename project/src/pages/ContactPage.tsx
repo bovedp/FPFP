@@ -72,7 +72,7 @@ const ContactPage: React.FC = () => {
                     <div>
                       <h3 className="text-lg font-semibold text-slate-800 mb-1">Address</h3>
                       <p className="text-slate-600">123 Safety Ave.</p>
-                      <p className="text-slate-600">Vero Beach, FL 32963</p>
+                      <p className="text-slate-600">Firetown, FL 00000</p>
                     </div>
                   </div>
                   
