@@ -12,7 +12,7 @@ const AboutPage: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
-              About First Priority Fire Protection
+              About First Priority Fire & Security
             </h1>
             <p className="text-xl text-slate-200">
               Revolutionizing fire protection with technology, expertise, and customer-centered solutions.
@@ -32,20 +32,20 @@ const AboutPage: React.FC = () => {
               />
               <div className="space-y-6 text-slate-600">
                 <p>
-                  First Priority Fire Protection was founded in 2010 with a clear mission: to transform the fire protection industry through innovation, technology, and a relentless focus on customer needs.
+                  First Priority Fire & Security was founded in 2025 with a clear mission: to transform the fire protection industry through innovation, technology, and a relentless focus on customer needs.
                 </p>
                 <p>
                   After years working in traditional fire protection services, our founders identified critical gaps in the industry – outdated technology, rigid service models, and a general lack of customer-centricity. They envisioned a company that would leverage cutting-edge technology to provide more efficient, effective fire protection while putting customer needs at the forefront of every decision.
                 </p>
                 <p>
-                  What began as a small team with big ideas has grown into one of the region's most trusted fire protection companies, serving businesses of all sizes across multiple industries. Throughout our growth, we've remained committed to our founding principles of innovation, agility, and customer focus.
+                  What began as a small team with big ideas and are growing into one of the region's most trusted fire protection companies, serving businesses of all sizes across multiple industries. Throughout our growth, we've remained committed to our founding principles of innovation, agility, and customer focus.
                 </p>
               </div>
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
               <img 
                 src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="First Priority Fire Protection team" 
+                alt="First Priority Fire & Security team" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -120,7 +120,7 @@ const AboutPage: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
             title="Our Leadership Team"
-            subtitle="Meet the experts behind First Priority Fire Protection."
+            subtitle="Meet the experts behind First Priority Fire & Security."
             centered
           />
 
@@ -130,15 +130,15 @@ const AboutPage: React.FC = () => {
               <div className="h-80 overflow-hidden">
                 <img 
                   src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                  alt="Robert Johnson" 
+                  alt="Douglas Bove" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-slate-800">Robert Johnson</h3>
+                <h3 className="text-xl font-bold text-slate-800">Douglas Bove</h3>
                 <p className="text-red-600 mb-4">CEO & Founder</p>
                 <p className="text-slate-600 mb-4">
-                  With over 20 years in fire protection and a background in technology, Robert founded First Priority to bridge the gap between traditional fire safety and modern innovation.
+                  With over 10 years in professional services and a background in technology, Doug founded First Priority to bridge the gap between traditional fire safety and modern innovation.
                 </p>
               </div>
             </div>
