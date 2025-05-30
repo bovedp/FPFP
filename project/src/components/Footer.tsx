@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <Mail size={20} className="mr-2 mt-1 text-red-500" />
-                <span>info@firstpriorityfp.com</span>
+                <span>info@firstpriorityfs.com</span>
               </li>
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 mt-1 text-red-500" />
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-400 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} First Priority Fire Protection Services. All rights reserved.
+            &copy; {currentYear} First Priority Fire & Security, LLC. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <Link href="/privacy-policy" isNav className="text-sm text-slate-400">Privacy Policy</Link>
