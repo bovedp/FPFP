@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
             <Shield className="w-8 h-8 text-red-600 mr-2" />
             <span className="text-white font-bold text-xl">
               <span>First Priority</span>
-              <span className="hidden sm:inline"> Fire Protection</span>
+              <span className="hidden sm:inline"> Fire & Security</span>
             </span>
           </Link>
 
